@@ -169,7 +169,7 @@ public class interfaz1 extends javax.swing.JFrame {
     }//GEN-LAST:event_nombreActionPerformed
 
     private void btnverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnverActionPerformed
-       JOptionPane.showMessageDialog(null,"ENTRADA:\n"+ en.getSel()+"\n PLATO PRINCIPAL\n"+ab.getSel()+"\n"+ens.getSel()+"\n"+le.getSel()+"\n BEBIDA\n"+bb.getSel()+"\n POSTRE\n"+po.getSel());
+       JOptionPane.showMessageDialog(null,"ENTRADA:\n"+ en.getSel()+"\nPLATO PRINCIPAL\n"+ab.getSel()+"\n"+ens.getSel()+"\n"+le.getSel()+"\nBEBIDA\n"+bb.getSel()+"\nPOSTRE\n"+po.getSel());
     }//GEN-LAST:event_btnverActionPerformed
 
     /**

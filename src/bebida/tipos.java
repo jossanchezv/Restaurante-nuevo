@@ -15,7 +15,7 @@ public class tipos extends bebidas {
 
     @Override
     public void seleccion() {
-        int a= Integer.parseInt(JOptionPane.showInputDialog("Que le gustaria beber? \n 1. Bebida caliente \n 2. Gaseosa \n 3. Jugo \n 4. Licor"));
+        int a= Integer.parseInt(JOptionPane.showInputDialog("Para la sed? \n 1. Bebida caliente \n 2. Gaseosa \n 3. Jugo \n 4. Licor"));
         if (a == 1) {
             int op= Integer.parseInt(JOptionPane.showInputDialog("Que bebida desea? \n 1. Tinto \n 2. Cafe \n 3. Agua aromatica"));
             switch (op) {

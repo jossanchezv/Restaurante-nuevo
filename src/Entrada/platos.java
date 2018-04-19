@@ -19,7 +19,7 @@ public class platos extends entrada {
     @Override
     public void seleccion() {
 
-        preferencia = Integer.parseInt(JOptionPane.showInputDialog("Como entrada tenemos Fruta o Sopa; que le gustaria? \n 1. Fruta \n 2. Sopa"));
+        preferencia = Integer.parseInt(JOptionPane.showInputDialog("Fruta o Sopa \n 1. Fruta \n 2. Sopa"));
         if (preferencia == 1) {
 
             int anadir = Integer.parseInt(JOptionPane.showInputDialog("La fruta se compone de: Papaya, fresa y melón, desea agregar algo más? \n 1. Si \n 2. No "));
@@ -29,22 +29,21 @@ public class platos extends entrada {
                 op = Integer.parseInt(JOptionPane.showInputDialog("Que otro ingrediente desea \n 1. Uvas \n2. Cerezas \n3. Banano"));
                 switch (op) {
                     case 1: {
-                        sel = "uvas";
+                        sel = "Papaya,fresa, melón, uvas";
                         break;
                     }
                     case 2:
-                        sel = "cerezas";
+                        sel = "Papaya,fresa, melón,cerezas";
                         break;
                     case 3:
-                        sel = "banano";
+                        sel = "Papaya, fresa, melón, banano";
                         break;
                     default:
-                        sel = "Nnguno";
+                        sel = "Papaya, fresa, melón";
                 }
             }
             if (anadir == 2) {
-                sel = "No se agregará nada";
-            
+                sel = "Papaya, fresa, melón";
             }
         }
         if (preferencia == 2) {
@@ -52,13 +51,13 @@ public class platos extends entrada {
             op = Integer.parseInt(JOptionPane.showInputDialog("Que sopa desea? \n 1.Ajiaco \n 2.Arroz \n 3Colisero"));
             switch (op) {
                 case 1:
-                    sel = "Ajiaco";
+                    sel = "Sopa de Ajiaco";
                     break;
                 case 2:
-                    sel = "Arroz";
+                    sel = "Sopa de Arroz";
                     break;
                 case 3:
-                    sel = "Colisero";
+                    sel = "Sopa de Colisero";
                     break;
                 default:
                     sel = "Ninguno";
