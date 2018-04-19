@@ -26,6 +26,9 @@ public class todos extends postre {
             case 3:
                 sel = "Ponque tres leches";
                 break;
+            case 4:
+                sel = "Chocolate";
+                break;
             default:
                 sel = "Ninguno";
         }
